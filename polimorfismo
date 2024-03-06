@@ -1,0 +1,19 @@
+using System;
+
+// Clase base Vehiculo
+public class Vehiculo
+{
+    public virtual void Mover()
+    {
+        Console.WriteLine("El vehículo se mueve");
+    }
+}
+
+// Clase derivada Bicicleta
+public class Bicicleta : Vehiculo
+{
+    public override void Mover()
+    {
+        Console.WriteLine("La bicicleta se mueve pedaleando");
+    }
+}
